@@ -36,7 +36,7 @@ export default {
 }
 #header-font {
   width: 70%;
-  height: 70%
+  max-width: 500px;
 }
 .footer {
   position:fixed;
