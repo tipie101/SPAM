@@ -6,7 +6,7 @@
 <template>
 <div>
   <div id="app">
-    <img src="./assets/spam2.png" />
+    <img id="header-font" src="./assets/spam2.png" />
     <router-view/> 
   </div>
 
@@ -32,6 +32,10 @@ export default {
   /* color: #2c3e50; */
   
   margin-top: 60px;
+}
+#header-font {
+  width: 70%;
+  height: 70%
 }
 .footer {
   position:fixed;

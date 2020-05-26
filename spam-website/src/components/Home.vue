@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <br>
     <br>
     <br>
@@ -36,14 +36,17 @@
       </li>
     </ul>
 
-    <ul class="mobile-nav nav">
-      <li class="nav-item"><a class="active" href="#">HOME</a></li>
-      <li class="nav-item"><a href="#/events">EVENTS </a></li>     
-      <li class="nav-item"><a href="#/info"> INFO </a></li>
-      <li class="nav-item"><a href="#/upcoming"> UPCOMING </a></li>
-    </ul>
+    <div class="mobile-container">
+      <ul class="mobile-nav nav">
+        <li class="nav-item"><a class="active" href="#">HOME</a></li>
+        <li class="nav-item"><a href="#/events">EVENTS </a></li>     
+        <li class="nav-item"><a href="#/info"> INFO </a></li>
+        <li class="nav-item"><a href="#/upcoming"> UPCOMING </a></li>
+      </ul>
+    </div>
 
   </div>
+ 
 
 </template>
 
@@ -78,6 +81,7 @@ li {
   margin: 0 10px;
 }
 </style>
+
 <style>
 a {
   color: #34495E;
@@ -128,11 +132,16 @@ a {
   background-color: #41B883;
   color: #34495E;
   border-radius: 0;
+  margin: 4px;
+  width: 100px;
 }
 .mobile-nav a:hover {
   color: #41B883;
   background-color: #34495E;
   border-radius: 0;
+}
+.mobile-container {
+  width: 10%;
 }
 
 /* Adapt this to  */
