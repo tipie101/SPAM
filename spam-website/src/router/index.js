@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
-import Events from '@/components/Events'
-import Info from '@/components/Info'
-import Upcoming from '@/components/Upcoming'
+import Home from '../components/Home'
+import Events from '../components/Events'
+import Info from '../components/Info'
+import Upcoming from '../components/Upcoming'
 
 Vue.use(Router)
 
