@@ -7,9 +7,10 @@
     <div class="col-md-10 nav navbar-expand flex-column flex-md-row">
       <!-- set active-class dynamically in parent component -->
       <a :class="{ active:  activeTab == 'home' }" href="#/"> HOME</a>
-      <a :class="{ active:  activeTab == 'events' }" href="#/events"> EVENTS </a>
+      <a :class="{ active:  activeTab == 'tech & it' }" href="#/TechIT"> TECHNOLOGY // IT </a>
+      <a :class="{ active:  activeTab == 'tuts & theory' }" href="#/TutsTheory"> TUTORIALS // THEORY </a>
+      <a :class="{ active:  activeTab == 'art & design' }" href="#/ArtDesign"> ART // DESIGN </a>
       <a :class="{ active:  activeTab == 'info' }" href="#/info"> INFO </a>
-      <a :class="{ active:  activeTab == 'upcoming' }" href="#/upcoming"> UPCOMING </a>
     </div>
 
    <div>     

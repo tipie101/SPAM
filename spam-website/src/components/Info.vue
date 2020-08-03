@@ -8,7 +8,7 @@
 import Navigation from './Navigation.vue'
 
 export default {
-  name: 'Home',
+  name: 'info',
   components: {
     Navigation
   },
